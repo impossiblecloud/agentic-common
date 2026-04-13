@@ -1,5 +1,8 @@
 {
   "name": "agentic-common",
+  "owner": {
+    "name": "impossiblecloud"
+  },
   "plugins": [
     {
       "name": "git-agent",
