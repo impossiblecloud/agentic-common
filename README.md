@@ -39,7 +39,8 @@ knowledge needed.
 ## Structure
 
 ```
-marketplace.json     Plugin catalog
+.claude-plugin/
+  marketplace.json   Plugin catalog
 memory/              Shared memory files (global, all agents)
 agents/
   git-agent/         Skills to clone repos and contribute changes
