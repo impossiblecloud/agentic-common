@@ -1,0 +1,11 @@
+{
+  "name": "agentic-common",
+  "plugins": [
+    {
+      "name": "git-agent",
+      "description": "Generic git skills for non-engineers. Clone any repo and contribute changes without touching git directly.",
+      "version": "1.0.0",
+      "source": "./agents/git-agent"
+    }
+  ]
+}
