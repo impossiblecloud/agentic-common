@@ -53,6 +53,11 @@ Claude will guide you through the rest. No technical knowledge needed.
 /git-agent:contribute
 ```
 
+**Get latest skills from the team:**
+```
+/plugin update git-agent@agentic-common
+```
+
 ---
 
 ## Structure
