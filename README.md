@@ -73,7 +73,26 @@ agents/
     scripts/         contribute.sh / contribute.ps1
 ```
 
-## Adding a new agent
+---
 
-Create `agents/<agent-name>/` with a `.claude-plugin/plugin.json`, a `skills/`
-dir, and a `README.md`. Register it in `.claude-plugin/marketplace.json`.
+## For maintainers
+
+### Publishing updates
+
+When you change skills or scripts, bump the version in both files before pushing:
+
+1. `agents/git-agent/.claude-plugin/plugin.json`
+2. `.claude-plugin/marketplace.json`
+
+Change `"version": "1.0.0"` to the next version (e.g. `1.0.1`, `1.1.0`).
+Without a version bump, users running `/plugin update` will see "already at latest version"
+and won't receive your changes.
+
+### Adding a new agent
+
+Create `agents/<agent-name>/` with:
+- `.claude-plugin/plugin.json` — plugin manifest
+- `skills/` — one directory per skill, each with a `SKILL.md`
+- `README.md` — what the agent does and how to use it
+
+Register it in `.claude-plugin/marketplace.json` and bump the marketplace version.
