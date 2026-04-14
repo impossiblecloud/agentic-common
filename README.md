@@ -33,7 +33,8 @@ You should see `✓ Installed git-agent`. Run `/reload-plugins` if prompted.
 /git-agent:setup
 ```
 
-Claude will guide you through the rest. No technical knowledge needed.
+Claude will run the necessary commands for you. When Claude Code asks for
+permission to run a command, click **Allow**. No technical knowledge needed.
 
 > **Note:** Skills in this plugin are namespaced. Always use the full name:
 > `/git-agent:setup`, `/git-agent:clone`, `/git-agent:contribute`.
